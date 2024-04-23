@@ -1,0 +1,120 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "display_mux")
+(DATE "Sat Apr 20 23:58:29 2024")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2023.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_0_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2471.3:2627.6:2627.6) (2471.3:2627.6:2627.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_1_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2475.1:2631.4:2631.4) (2475.1:2631.4:2631.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_2_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2481.6:2638.0:2638.0) (2481.6:2638.0:2638.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_3_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2470.3:2626.5:2626.5) (2470.3:2626.5:2626.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_4_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2471.5:2627.8:2627.8) (2471.5:2627.8:2627.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_5_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2470.0:2626.3:2626.3) (2470.0:2626.3:2626.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_6_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2470.5:2626.8:2626.8) (2470.5:2626.8:2626.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE dis_7_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2483.3:2639.7:2639.7) (2483.3:2639.7:2639.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE dis_7_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE en_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (845.7:979.4:979.4) (845.7:979.4:979.4))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "display_mux")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT dis_7_OBUF_inst_i_1/O dis_7_OBUF_inst/I (1441.5:1670.5:1670.5) (1441.5:1670.5:1670.5))
+      (INTERCONNECT en_IBUF_inst/O dis_7_OBUF_inst_i_1/I0 (903.9:1069.9:1069.9) (903.9:1069.9:1069.9))
+      )
+    )
+)
+)

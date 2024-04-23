@@ -1,8 +1,0 @@
-Vivado Simulator v2023.2
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_display_mux_func_synth xil_defaultlib.tb_display_mux -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-ERROR: [VRFC 10-8554] case statement does not cover all choices; 'others' clause is needed [C:/Users/Spagetik/Desktop/project_1/project_1.srcs/sim_1/new/tb_display_mux.vhd:62]
-ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_display_mux in library work failed.

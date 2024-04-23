@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Spagetik/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/tb_display_mux_func_synth.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'display_mux'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Spagetik/Desktop/project_1/project_1.srcs/sim_1/new/tb_display_mux.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_display_mux'

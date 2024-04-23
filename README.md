@@ -3,7 +3,7 @@ Nikita Krasilnikov (responsible for writing code and creating materials for proj
 
 Artem Kostenko (responsible for writing the code, creating the schematic)
 
-Ivan Efimov (responsible for writing the code and presenting the project)
+Ivan Efimov (responsible for writing the code and testing the project)
 
 Theoretical description and explanation:
 This project uses the Nexys A7 FPGA board to implement a hardware-based Caesar Cipher, a simple encryption technique. 
@@ -131,6 +131,9 @@ https://streamable.com/dkmi30
 
 References
 https://github.com/tomas-fryza/vhdl-course/tree/master
+
 https://vhdl.lapinoo.net/testbench/
+
 https://www.wikiwand.com/en/Caesar_cipher
+
 https://en.wikipedia.org/wiki/File:7segment_multiplexing.gif

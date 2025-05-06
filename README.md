@@ -105,7 +105,7 @@ Functions:
 Debouncing: Filters mechanical "bounce" in button signals to produce a stable output.
 Edge Detection: Generates signals for rising and falling edges, enabling precise control based on button interactions.
 Operation Details:
-Operates under a main clock with enable and reset controls, managing transitions through multiple states to confirm button presses and releases.
+Operates under a main clock with enable and reset controls, managing transitions through multiple states to confirm button presses and releases;
 Outputs include a debounced signal (clean) and edge indicators (pos_edge and neg_edge) for integration into larger systems.
 
 Nexys A7-50T XDC(constraints)
